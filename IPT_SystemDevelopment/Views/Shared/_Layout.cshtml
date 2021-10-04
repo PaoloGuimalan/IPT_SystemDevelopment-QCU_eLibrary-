@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="~/Content/main.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,19 +23,25 @@
                     <table id="tbl_navs_under">
                         <tbody>
                             <tr>
-                                <td><i class="material-icons" style="font-size: 40px; color: #D4AC74;">person</i></td>
-                                <td><span style="font-size: 40px; color: #D4AC74;">|</span></td>
-                                <td><i class="material-icons" style="font-size: 40px; color: #D4AC74;">facebook</i></td>
-                                <td><i class="material-icons" style="font-size: 40px; color: #D4AC74;">phone</i></td>
-                                <td><i class="material-icons" style="font-size: 40px; color: #D4AC74;">bird</i></td>
-                                <td></td>
+                                <td><i class="material-icons" style="font-size: 30px; color: #D4AC74;">person</i></td>
+                                <td><span style="font-size: 30px; color: #D4AC74;">|</span></td>
+                                <td><i class="material-icons" style="font-size: 30px; color: #D4AC74;">facebook</i></td>
+                                <td><i class="material-icons" style="font-size: 30px; color: #D4AC74;">phone</i></td>
+                                <td><i class="fa fa-twitter" style="font-size: 30px; color: #D4AC74;"></i></td>
                             </tr>
                         </tbody>
                     </table>
                 </li>
             </ul>
         </div>
-        <div id="main-nav"></div>
+        <div id="main-nav">
+            <ul id="ul_link_main">
+                <li class="li_link_main"><a href="" class="link_main">Home</a></li>
+                <li class="li_link_main"><a href="" class="link_main">About</a></li>
+                <li class="li_link_main"><a href="" class="link_main">Services</a></li>
+                <li class="li_link_main"><a href="" class="link_main">FAQ's</a></li>
+            </ul>
+        </div>
     </header>
     <div class="main_body">
         @RenderBody()
